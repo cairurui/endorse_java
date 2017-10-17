@@ -1,0 +1,164 @@
+Starting LoggerTest on xiaocai-PC with PID 9792 (started by xiaocai in D:\dev\workspace\java\endorse_t)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6bd61f98: startup date [Sun Oct 15 18:37:37 CST 2017]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6bd61f98: startup date [Sun Oct 15 18:37:37 CST 2017]; root of context hierarchy
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Started LoggerTest in 2.13 seconds (JVM running for 2.733)
+nongnongnong
+Closing org.springframework.web.context.support.GenericWebApplicationContext@6bd61f98: startup date [Sun Oct 15 18:37:37 CST 2017]; root of context hierarchy
+Starting LoggerTest on xiaocai-PC with PID 4644 (started by xiaocai in D:\dev\workspace\java\endorse_t)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@909217e: startup date [Sun Oct 15 22:41:44 CST 2017]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.NullPointerException
+
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+Starting LoggerTest on xiaocai-PC with PID 7824 (started by xiaocai in D:\dev\workspace\java\endorse_t)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@75d3a5e0: startup date [Sun Oct 15 22:42:17 CST 2017]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Cannot determine embedded database driver class for database type NONE. If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (no profiles are currently active).
+
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+Starting EndorseTApplication on xiaocai-PC with PID 7928 (D:\dev\workspace\java\endorse_t\target\classes started by xiaocai in D:\dev\workspace\java\endorse_t)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@41e36e46: startup date [Sun Oct 15 23:04:01 CST 2017]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Tomcat initialized with port(s): 8080 (http)
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.20
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 883 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Cannot determine embedded database driver class for database type NONE. If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (no profiles are currently active).
+Stopping service [Tomcat]
+
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+Starting EndorseTApplication on xiaocai-PC with PID 7648 (D:\dev\workspace\java\endorse_t\target\classes started by xiaocai in D:\dev\workspace\java\endorse_t)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@22a637e7: startup date [Sun Oct 15 23:04:44 CST 2017]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Tomcat initialized with port(s): 8080 (http)
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.20
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 620 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@22a637e7: startup date [Sun Oct 15 23:04:44 CST 2017]; root of context hierarchy
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http)
+Started EndorseTApplication in 1.315 seconds (JVM running for 2.014)
+Starting EndorseTApplication on xiaocai-PC with PID 4232 (D:\dev\workspace\java\endorse_t\target\classes started by xiaocai in D:\dev\workspace\java\endorse_t)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1d119efb: startup date [Sun Oct 15 23:06:28 CST 2017]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Tomcat initialized with port(s): 8080 (http)
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.20
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 721 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1d119efb: startup date [Sun Oct 15 23:06:28 CST 2017]; root of context hierarchy
+Mapped "{[/hello]}" onto public java.lang.String com.xiaocai.endorse_t.controller.HelloController.hello()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http)
+Started EndorseTApplication in 1.532 seconds (JVM running for 2.372)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 10 ms
+Starting EndorseTApplication on xiaocai-PC with PID 10172 (D:\dev\workspace\java\endorse_t\target\classes started by xiaocai in D:\dev\workspace\java\endorse_t)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@22a637e7: startup date [Sun Oct 15 23:07:50 CST 2017]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Tomcat initialized with port(s): 8080 (http)
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.20
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 651 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@22a637e7: startup date [Sun Oct 15 23:07:50 CST 2017]; root of context hierarchy
+Mapped "{[/hello]}" onto public java.lang.String com.xiaocai.endorse_t.controller.HelloController.hello()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http)
+Started EndorseTApplication in 1.436 seconds (JVM running for 2.013)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 10 ms
+2017-10-15 23:08:33,486 - Starting EndorseTApplication on xiaocai-PC with PID 9976 (D:\dev\workspace\java\endorse_t\target\classes started by xiaocai in D:\dev\workspace\java\endorse_t)
+2017-10-15 23:08:33,488 - No active profile set, falling back to default profiles: default
+2017-10-15 23:08:33,524 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1d119efb: startup date [Sun Oct 15 23:08:33 CST 2017]; root of context hierarchy
+2017-10-15 23:08:33,603 - HV000001: Hibernate Validator 5.3.5.Final
+2017-10-15 23:08:34,100 - Tomcat initialized with port(s): 8080 (http)
+2017-10-15 23:08:34,105 - Starting service [Tomcat]
+2017-10-15 23:08:34,106 - Starting Servlet Engine: Apache Tomcat/8.5.20
+2017-10-15 23:08:34,153 - Initializing Spring embedded WebApplicationContext
+2017-10-15 23:08:34,153 - Root WebApplicationContext: initialization completed in 630 ms
+2017-10-15 23:08:34,222 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-15 23:08:34,225 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-15 23:08:34,225 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-15 23:08:34,225 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-15 23:08:34,225 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-15 23:08:34,379 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1d119efb: startup date [Sun Oct 15 23:08:33 CST 2017]; root of context hierarchy
+2017-10-15 23:08:34,408 - Mapped "{[/hello]}" onto public java.lang.String com.xiaocai.endorse_t.controller.HelloController.hello()
+2017-10-15 23:08:34,411 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-15 23:08:34,411 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-15 23:08:34,425 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-15 23:08:34,426 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-15 23:08:34,444 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-15 23:08:34,513 - Registering beans for JMX exposure on startup
+2017-10-15 23:08:34,522 - Initializing ProtocolHandler ["http-nio-8080"]
+2017-10-15 23:08:34,526 - Starting ProtocolHandler ["http-nio-8080"]
+2017-10-15 23:08:34,533 - Using a shared selector for servlet write/read
+2017-10-15 23:08:34,541 - Tomcat started on port(s): 8080 (http)
+2017-10-15 23:08:34,544 - Started EndorseTApplication in 1.339 seconds (JVM running for 1.985)
+2017-10-15 23:08:38,512 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-15 23:08:38,513 - FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-15 23:08:38,534 - FrameworkServlet 'dispatcherServlet': initialization completed in 21 ms

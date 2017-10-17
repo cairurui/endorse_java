@@ -1,0 +1,22 @@
+server:
+  context-path: /endorse
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/sell?characterEncoding=utf-8&useSSL=false
+  jpa:
+    show-sql: true
+
+
+
+#logging:
+#  pattern:
+#    console: "%d - %msg%n"
+#  path: ./endorselog
+#  file: ./log/sell.log
+#  level: debug
+
+
