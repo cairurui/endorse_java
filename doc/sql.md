@@ -1,4 +1,4 @@
-创建类目表：
+### 创建类目表：
 
 ```mysql
  SHOW DATABASES;
@@ -34,3 +34,26 @@ SELECT * FROM product_category;
 INSERT INTO product_category(category_id,category_name,category_type) VALUES(1,'热销榜',10);
 
 ```
+
+
+### 2. 商品表
+
+
+```mysql
+-- 商品
+create table `product_info` (
+    `product_id` varchar(32) not null,
+    `product_name` varchar(64) not null comment '商品名称',
+    `product_price` decimal(8,2) not null comment '单价',
+    `product_stock` int not null comment '库存',
+    `product_description` varchar(64) comment '描述',
+    `product_icon` varchar(512) comment '小图',
+    `product_status` tinyint(3) DEFAULT '0' COMMENT '商品状态,0正常1下架',
+    `category_type` int not null comment '类目编号',
+    `create_time` timestamp not null default current_timestamp comment '创建时间',
+    `update_time` timestamp not null default current_timestamp on update current_timestamp comment '修改时间',
+    primary key (`product_id`)
+);
+```
+
+

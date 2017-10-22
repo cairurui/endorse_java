@@ -1,0 +1,232 @@
+2017-10-23 00:51:53,567 - Starting ProductInfoDaoTest on xiaocai-PC with PID 8520 (started by xiaocai in D:\dev\workspace\java\endorse_t)
+2017-10-23 00:51:53,570 - No active profile set, falling back to default profiles: default
+2017-10-23 00:51:53,604 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5ddeb7cb: startup date [Mon Oct 23 00:51:53 CST 2017]; root of context hierarchy
+2017-10-23 00:51:53,877 - HV000001: Hibernate Validator 5.3.5.Final
+2017-10-23 00:51:55,105 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-23 00:51:55,120 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-23 00:51:55,179 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-23 00:51:55,180 - HHH000206: hibernate.properties not found
+2017-10-23 00:51:55,181 - HHH000021: Bytecode provider name : javassist
+2017-10-23 00:51:55,216 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-23 00:51:55,314 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-23 00:51:55,784 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: No identifier specified for entity: com.xiaocai.endorse_t.dataobject.ProductInfo
+2017-10-23 00:51:55,791 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-10-23 00:53:40,089 - Starting ProductCategoryServiceImplTest on xiaocai-PC with PID 2260 (started by xiaocai in D:\dev\workspace\java\endorse_t)
+2017-10-23 00:53:40,090 - No active profile set, falling back to default profiles: default
+2017-10-23 00:53:40,125 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7e057f43: startup date [Mon Oct 23 00:53:40 CST 2017]; root of context hierarchy
+2017-10-23 00:53:40,419 - HV000001: Hibernate Validator 5.3.5.Final
+2017-10-23 00:53:41,760 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-23 00:53:41,773 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-23 00:53:41,843 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-23 00:53:41,845 - HHH000206: hibernate.properties not found
+2017-10-23 00:53:41,846 - HHH000021: Bytecode provider name : javassist
+2017-10-23 00:53:41,879 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-23 00:53:41,979 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-23 00:53:42,487 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
+2017-10-23 00:53:42,494 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-10-23 00:55:20,352 - Starting ProductInfoDaoTest on xiaocai-PC with PID 9132 (started by xiaocai in D:\dev\workspace\java\endorse_t)
+2017-10-23 00:55:20,354 - No active profile set, falling back to default profiles: default
+2017-10-23 00:55:20,405 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5ddeb7cb: startup date [Mon Oct 23 00:55:20 CST 2017]; root of context hierarchy
+2017-10-23 00:55:20,701 - HV000001: Hibernate Validator 5.3.5.Final
+2017-10-23 00:55:22,095 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-23 00:55:22,110 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-23 00:55:22,172 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-23 00:55:22,173 - HHH000206: hibernate.properties not found
+2017-10-23 00:55:22,174 - HHH000021: Bytecode provider name : javassist
+2017-10-23 00:55:22,212 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-23 00:55:22,321 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-23 00:55:23,002 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-23 00:55:23,632 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5ddeb7cb: startup date [Mon Oct 23 00:55:20 CST 2017]; root of context hierarchy
+2017-10-23 00:55:23,722 - Mapped "{[/hello]}" onto public java.lang.String com.xiaocai.endorse_t.controller.HelloController.hello()
+2017-10-23 00:55:23,725 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-23 00:55:23,726 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-23 00:55:23,756 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-23 00:55:23,757 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-23 00:55:23,789 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-23 00:55:24,035 - Started ProductInfoDaoTest in 4.255 seconds (JVM running for 4.859)
+2017-10-23 00:55:24,116 - SQL Error: 1048, SQLState: 23000
+2017-10-23 00:55:24,129 - Closing org.springframework.web.context.support.GenericWebApplicationContext@5ddeb7cb: startup date [Mon Oct 23 00:55:20 CST 2017]; root of context hierarchy
+2017-10-23 00:55:24,131 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-23 00:56:35,076 - Starting ProductInfoDaoTest on xiaocai-PC with PID 3332 (started by xiaocai in D:\dev\workspace\java\endorse_t)
+2017-10-23 00:56:35,077 - No active profile set, falling back to default profiles: default
+2017-10-23 00:56:35,112 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5ddeb7cb: startup date [Mon Oct 23 00:56:35 CST 2017]; root of context hierarchy
+2017-10-23 00:56:35,420 - HV000001: Hibernate Validator 5.3.5.Final
+2017-10-23 00:56:36,755 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-23 00:56:36,771 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-23 00:56:36,834 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-23 00:56:36,835 - HHH000206: hibernate.properties not found
+2017-10-23 00:56:36,837 - HHH000021: Bytecode provider name : javassist
+2017-10-23 00:56:36,888 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-23 00:56:37,026 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-23 00:56:37,763 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-23 00:56:38,373 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5ddeb7cb: startup date [Mon Oct 23 00:56:35 CST 2017]; root of context hierarchy
+2017-10-23 00:56:38,432 - Mapped "{[/hello]}" onto public java.lang.String com.xiaocai.endorse_t.controller.HelloController.hello()
+2017-10-23 00:56:38,434 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-23 00:56:38,434 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-23 00:56:38,460 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-23 00:56:38,460 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-23 00:56:38,490 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-23 00:56:38,689 - Started ProductInfoDaoTest in 4.117 seconds (JVM running for 4.679)
+2017-10-23 00:56:38,795 - SQL Error: 1364, SQLState: HY000
+2017-10-23 00:56:38,808 - Closing org.springframework.web.context.support.GenericWebApplicationContext@5ddeb7cb: startup date [Mon Oct 23 00:56:35 CST 2017]; root of context hierarchy
+2017-10-23 00:56:38,810 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-23 00:57:43,338 - Starting ProductInfoDaoTest on xiaocai-PC with PID 10584 (started by xiaocai in D:\dev\workspace\java\endorse_t)
+2017-10-23 00:57:43,339 - No active profile set, falling back to default profiles: default
+2017-10-23 00:57:43,373 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5ddeb7cb: startup date [Mon Oct 23 00:57:43 CST 2017]; root of context hierarchy
+2017-10-23 00:57:43,639 - HV000001: Hibernate Validator 5.3.5.Final
+2017-10-23 00:57:44,955 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-23 00:57:44,972 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-23 00:57:45,041 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-23 00:57:45,042 - HHH000206: hibernate.properties not found
+2017-10-23 00:57:45,044 - HHH000021: Bytecode provider name : javassist
+2017-10-23 00:57:45,082 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-23 00:57:45,188 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-23 00:57:45,907 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-23 00:57:46,584 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5ddeb7cb: startup date [Mon Oct 23 00:57:43 CST 2017]; root of context hierarchy
+2017-10-23 00:57:46,648 - Mapped "{[/hello]}" onto public java.lang.String com.xiaocai.endorse_t.controller.HelloController.hello()
+2017-10-23 00:57:46,650 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-23 00:57:46,651 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-23 00:57:46,674 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-23 00:57:46,674 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-23 00:57:46,705 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-23 00:57:46,955 - Started ProductInfoDaoTest in 4.082 seconds (JVM running for 4.68)
+2017-10-23 00:57:47,049 - SQL Error: 1364, SQLState: HY000
+2017-10-23 00:57:47,066 - Closing org.springframework.web.context.support.GenericWebApplicationContext@5ddeb7cb: startup date [Mon Oct 23 00:57:43 CST 2017]; root of context hierarchy
+2017-10-23 00:57:47,069 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-23 00:59:45,587 - Starting ProductInfoDaoTest on xiaocai-PC with PID 7076 (started by xiaocai in D:\dev\workspace\java\endorse_t)
+2017-10-23 00:59:45,587 - No active profile set, falling back to default profiles: default
+2017-10-23 00:59:45,622 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5ddeb7cb: startup date [Mon Oct 23 00:59:45 CST 2017]; root of context hierarchy
+2017-10-23 00:59:45,906 - HV000001: Hibernate Validator 5.3.5.Final
+2017-10-23 00:59:47,165 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-23 00:59:47,179 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-23 00:59:47,234 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-23 00:59:47,235 - HHH000206: hibernate.properties not found
+2017-10-23 00:59:47,236 - HHH000021: Bytecode provider name : javassist
+2017-10-23 00:59:47,269 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-23 00:59:47,366 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-23 00:59:48,033 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-23 00:59:48,694 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5ddeb7cb: startup date [Mon Oct 23 00:59:45 CST 2017]; root of context hierarchy
+2017-10-23 00:59:48,768 - Mapped "{[/hello]}" onto public java.lang.String com.xiaocai.endorse_t.controller.HelloController.hello()
+2017-10-23 00:59:48,771 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-23 00:59:48,771 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-23 00:59:48,793 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-23 00:59:48,793 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-23 00:59:48,827 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-23 00:59:49,071 - Started ProductInfoDaoTest in 3.955 seconds (JVM running for 4.56)
+2017-10-23 00:59:49,165 - SQL Error: 1364, SQLState: HY000
+2017-10-23 00:59:49,183 - Closing org.springframework.web.context.support.GenericWebApplicationContext@5ddeb7cb: startup date [Mon Oct 23 00:59:45 CST 2017]; root of context hierarchy
+2017-10-23 00:59:49,186 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-23 01:01:11,386 - Starting ProductInfoDaoTest on xiaocai-PC with PID 6872 (started by xiaocai in D:\dev\workspace\java\endorse_t)
+2017-10-23 01:01:11,387 - No active profile set, falling back to default profiles: default
+2017-10-23 01:01:11,448 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5ddeb7cb: startup date [Mon Oct 23 01:01:11 CST 2017]; root of context hierarchy
+2017-10-23 01:01:11,687 - HV000001: Hibernate Validator 5.3.5.Final
+2017-10-23 01:01:12,970 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-23 01:01:12,987 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-23 01:01:13,050 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-23 01:01:13,051 - HHH000206: hibernate.properties not found
+2017-10-23 01:01:13,052 - HHH000021: Bytecode provider name : javassist
+2017-10-23 01:01:13,086 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-23 01:01:13,190 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-23 01:01:13,885 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-23 01:01:14,497 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5ddeb7cb: startup date [Mon Oct 23 01:01:11 CST 2017]; root of context hierarchy
+2017-10-23 01:01:14,562 - Mapped "{[/hello]}" onto public java.lang.String com.xiaocai.endorse_t.controller.HelloController.hello()
+2017-10-23 01:01:14,564 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-23 01:01:14,565 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-23 01:01:14,594 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-23 01:01:14,594 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-23 01:01:14,630 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-23 01:01:14,889 - Started ProductInfoDaoTest in 4.004 seconds (JVM running for 4.584)
+2017-10-23 01:01:15,011 - Closing org.springframework.web.context.support.GenericWebApplicationContext@5ddeb7cb: startup date [Mon Oct 23 01:01:11 CST 2017]; root of context hierarchy
+2017-10-23 01:01:15,014 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-23 01:02:23,331 - Starting ProductInfoDaoTest on xiaocai-PC with PID 10912 (started by xiaocai in D:\dev\workspace\java\endorse_t)
+2017-10-23 01:02:23,331 - No active profile set, falling back to default profiles: default
+2017-10-23 01:02:23,364 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5ddeb7cb: startup date [Mon Oct 23 01:02:23 CST 2017]; root of context hierarchy
+2017-10-23 01:02:23,628 - HV000001: Hibernate Validator 5.3.5.Final
+2017-10-23 01:02:24,903 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-23 01:02:24,921 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-23 01:02:24,986 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-23 01:02:24,987 - HHH000206: hibernate.properties not found
+2017-10-23 01:02:24,989 - HHH000021: Bytecode provider name : javassist
+2017-10-23 01:02:25,024 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-23 01:02:25,127 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-23 01:02:25,813 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-23 01:02:26,449 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5ddeb7cb: startup date [Mon Oct 23 01:02:23 CST 2017]; root of context hierarchy
+2017-10-23 01:02:26,517 - Mapped "{[/hello]}" onto public java.lang.String com.xiaocai.endorse_t.controller.HelloController.hello()
+2017-10-23 01:02:26,519 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-23 01:02:26,520 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-23 01:02:26,548 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-23 01:02:26,548 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-23 01:02:26,578 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-23 01:02:26,818 - Started ProductInfoDaoTest in 3.982 seconds (JVM running for 4.543)
+2017-10-23 01:02:26,901 - SQL Error: 1364, SQLState: HY000
+2017-10-23 01:02:26,920 - Closing org.springframework.web.context.support.GenericWebApplicationContext@5ddeb7cb: startup date [Mon Oct 23 01:02:23 CST 2017]; root of context hierarchy
+2017-10-23 01:02:26,922 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-23 01:02:43,571 - Starting ProductInfoDaoTest on xiaocai-PC with PID 7208 (started by xiaocai in D:\dev\workspace\java\endorse_t)
+2017-10-23 01:02:43,571 - No active profile set, falling back to default profiles: default
+2017-10-23 01:02:43,605 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5ddeb7cb: startup date [Mon Oct 23 01:02:43 CST 2017]; root of context hierarchy
+2017-10-23 01:02:43,867 - HV000001: Hibernate Validator 5.3.5.Final
+2017-10-23 01:02:45,169 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-23 01:02:45,185 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-23 01:02:45,246 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-23 01:02:45,247 - HHH000206: hibernate.properties not found
+2017-10-23 01:02:45,248 - HHH000021: Bytecode provider name : javassist
+2017-10-23 01:02:45,283 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-23 01:02:45,382 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-23 01:02:46,099 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-23 01:02:46,709 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5ddeb7cb: startup date [Mon Oct 23 01:02:43 CST 2017]; root of context hierarchy
+2017-10-23 01:02:46,779 - Mapped "{[/hello]}" onto public java.lang.String com.xiaocai.endorse_t.controller.HelloController.hello()
+2017-10-23 01:02:46,781 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-23 01:02:46,781 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-23 01:02:46,810 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-23 01:02:46,810 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-23 01:02:46,846 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-23 01:02:47,095 - Started ProductInfoDaoTest in 3.99 seconds (JVM running for 4.574)
+2017-10-23 01:02:47,228 - Closing org.springframework.web.context.support.GenericWebApplicationContext@5ddeb7cb: startup date [Mon Oct 23 01:02:43 CST 2017]; root of context hierarchy
+2017-10-23 01:02:47,231 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-23 01:03:25,587 - Starting ProductInfoDaoTest on xiaocai-PC with PID 484 (started by xiaocai in D:\dev\workspace\java\endorse_t)
+2017-10-23 01:03:25,588 - No active profile set, falling back to default profiles: default
+2017-10-23 01:03:25,623 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5ddeb7cb: startup date [Mon Oct 23 01:03:25 CST 2017]; root of context hierarchy
+2017-10-23 01:03:25,923 - HV000001: Hibernate Validator 5.3.5.Final
+2017-10-23 01:03:27,271 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-23 01:03:27,285 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-23 01:03:27,341 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-23 01:03:27,342 - HHH000206: hibernate.properties not found
+2017-10-23 01:03:27,344 - HHH000021: Bytecode provider name : javassist
+2017-10-23 01:03:27,378 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-23 01:03:27,473 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-23 01:03:28,157 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-23 01:03:28,787 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5ddeb7cb: startup date [Mon Oct 23 01:03:25 CST 2017]; root of context hierarchy
+2017-10-23 01:03:28,857 - Mapped "{[/hello]}" onto public java.lang.String com.xiaocai.endorse_t.controller.HelloController.hello()
+2017-10-23 01:03:28,859 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-23 01:03:28,859 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-23 01:03:28,883 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-23 01:03:28,883 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-23 01:03:28,923 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-23 01:03:29,147 - Started ProductInfoDaoTest in 4.022 seconds (JVM running for 4.592)
+2017-10-23 01:03:29,242 - SQL Error: 1364, SQLState: HY000
+2017-10-23 01:03:29,262 - Closing org.springframework.web.context.support.GenericWebApplicationContext@5ddeb7cb: startup date [Mon Oct 23 01:03:25 CST 2017]; root of context hierarchy
+2017-10-23 01:03:29,265 - Closing JPA EntityManagerFactory for persistence unit 'default'
