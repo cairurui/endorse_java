@@ -13,7 +13,6 @@ public class HelloController {
     @RequestMapping("/hello")
     public String hello() {
         logger.error("hello");
-
         return "hello";
     }
 
